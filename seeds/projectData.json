@@ -1,4 +1,3 @@
-
 [{
 
         "issue": "Preparing your wall before applying the paint is crucial for professional results.",
@@ -32,6 +31,16 @@
         "difficulty": "medium",
         "category": "Plumbing"
     },
+
+    {
+
+        "issue": "These tips will help you unclog your shower drain.",
+        "instructions": "1.  check your drain for a visible obstruction.\\n 2. Use a drain snake.\\n 3. Use a pot of boiling water. \\n4. If all the previous steps didn't work then it's time to call a plumber!",
+        "img_URL": "../public/assets/images/plumb2.jpg",
+        "difficulty": "medium",
+        "category": "Plumbing"
+    },
+
     {
 
         "issue": "Changing a light bulb is one of the easiest things you can do. Let us show you how.",
@@ -57,8 +66,36 @@
         "img_URL": "../public/assets/images/botany2.jpg",
         "difficulty": "easy",
         "category_id": "Botany"
+    },
+
+
+    {
+
+        "issue": "Know your soil type!",
+        "instructions": "1. Clay soils: have tiny, dense particles that hold large reserves of moisture and nutrients. However, clay soil also drains slowly and can become hard and compacted when dry.\\n 2. Sandy soils are just the opposite, with large particles that water moves through easily — along with important nutrients.\\n 3. Silts have fine particle sizes that pack together tightly, inhibiting drainage and air circulation.\\n 4. Loam is the ideal soil for most plants; it contains a balance of all three mineral particles and is rich in humus (what’s left after organic matter decomposes).",
+        "img_URL": "../public/assets/images/botany3.jpg",
+        "difficulty": "easy",
+        "category_id": "Botany"
+    },
+
+    {
+
+        "issue": "Woodwork idead for beginners",
+        "instructions": "1. A cutting board: who doesn't love a rustic wooden cutting board? \\n 2. A wooden door mat: a great way to dry off wet shoes without getting a soggy mat.\\n 3. A sofa sleeve: Sofa sleeves make it easy to lounge on the couch with a hot cup of tea.",
+        "img_URL": "../public/assets/images/wood1.jpg",
+        "difficulty": "easy",
+        "category_id": "Woodworking"
+    },
+
+    {
+
+        "issue": "Beginner's guide to must have woodworking tools",
+        "instructions": "1. Hand saws. \\n 2. Hammer. \\n 3. Screw Gun. \\n 4. Workbench. \\n 5. Drill",
+        "img_URL": "../public/assets/images/wood2.jpg",
+        "difficulty": "easy",
+        "category_id": "Woodworking"
     }
 
 
-]
 
+]
