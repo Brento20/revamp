@@ -1,23 +1,64 @@
-[
-  {
-    "category": "Plumbing",
-    "issue": "How to fix a leaky faucet",
-    "instructions": "Strap some tape around it"
 
-  },
-  {
-    "category": "Plumbing",
-    "issue": "How to unclog a shower drain",
-    "instructions": "Pull the hair out"
-  },
-  {
-    "category": "Plumbing",
-    "issue": "How to seal a cracked pipe",
-    "instructions": "Super Glue!"
-  },
-  {
-    "category": "Plumbing",
-    "issue": "How to stop the roof from leaking",
-    "instructions": "Buy a new roof"
-  }
+[{
+
+        "issue": "Preparing your wall before applying the paint is crucial for professional results.",
+        "instructions": "1. Clean your walls with sugar soap\\n 2. Scrape cracked paint off the walls\\n 3. Apply gap filler to any cracks \\n 4. Sand off the filler",
+        "img_URL": "../public/assets/images/paint1.jpg",
+        "difficulty": "medium",
+        "category": "Painting"
+    },
+    {
+
+        "issue": "It's important to apply an undercoat to provide a layer for paint to adhere to and make the surface flatter.",
+        "instructions": "1. Protect the floor\\n 2. Prepare the walls (Check out our separate tutorial for that!) \\n 3.Remove all furniture and tape up hardware and fixtures\\n 4. Cut in the undercoat: Use a paint brush to cut in around the edges and corners\\n5. Apply the undercoat with a roller\\n6. Remove the masking tape: An hour after painting, peel the masking tape off slowly, holding the end at a 45-degree angle away from the wall. Don't wait until the undercoat is dry because the undercoat may crack and lift when you peel the tape off.",
+        "img_URL": "../public/assets/images/paint2",
+        "difficulty": "easy",
+        "category": "Painting"
+    },
+    {
+
+        "issue": "After preparing the wall and applying undercoat (Check out our tutorials for that!) it's time to do some painting!",
+        "instructions": "1. Remove all furniture and tape up hardware and fixtures\\n 2. Choose your colour scheme: this depends on furniture color as well as personal preference. \\n 3. Choose between water or oil based paints: oil is more durable.\\n 4. Choose the right amount of paint: 1 litre of paint will roughly cover about 16 square metres of surface.\\n5. When to use brushes and rollers: Brushes are used when cutting in around walls and ceilings while Rollers are a quick and efficient way of filling in large spaces.",
+        "img_URL": "../public/assets/images/paint3",
+        "difficulty": "medium",
+        "category": "Painting"
+    },
+
+    {
+
+        "issue": "These tips will help you unclog your toilet.",
+        "instructions": "1. Use the plunger: While this tool might appear basic, it remains the best way of unclogging a toilet.\\n 2. Vinegar and Baking Soda: We recommend you add a cup of baking soda to your blocked toilet and wait for some minutes. Next, pour two cups of vinegar slowly into the toilet.\\n 3. Hot Water and Dish Soap: Heat up a gallon of hot water on the stove and pour some dish soap into your toilet while the water is heating up. When the water is extremely hot, but not boiling, pour into the toilet carefully. Wait for 10-15 minutes while the dish soap and hot water soften the clog.",
+        "img_URL": "../public/assets/images/plumb1.jpg",
+        "difficulty": "medium",
+        "category": "Plumbing"
+    },
+    {
+
+        "issue": "Changing a light bulb is one of the easiest things you can do. Let us show you how.",
+        "instructions": "1. Turn off the power\\n 2. Let it cool.\\n 3. Ensure you can safely reach the bulb, use a ladder if you need to\\n 4. Remove the old bulb and replace it with the new (Check our guide for bulb mount types!)\\n 5. Turn on power and check if new bulb is working. \\n 6. Disppose of old bulb safely according to regulations in youe country.",
+        "img_URL": "../public/assets/images/elec2.jpg",
+        "difficulty": "easy",
+        "category": "Electricity"
+    },
+
+    {
+
+        "issue": "Changing a light bulb is one of the easiest things you can do. Let us show you how.",
+        "instructions": "1. Before changing light bulbs, get to know which mount the old one is to avoid unneccassary trips to the store.\\n 2. As you can see in the picture there are 2 types of bulb mounts, and each types comes in different sizes as well.\\n 3. To remove Bayonet bulb: Grasp the bulb lightly but firmly, push upwards gently and turn anticlockwise until it is released from the socket. \\n 4. To remove screw fitting bulb: Keep gently twisting anticlockwise until the bulb comes loose from the socket.",
+        "img_URL": "../public/assets/images/elec3.jpg",
+        "difficulty": "easy",
+        "category": "Electricity"
+    },
+
+    {
+
+        "issue": "Bring your home to life with plants that thrive on the inside!",
+        "instructions": "1. String of hearts: it can grow long, fine strands up to several metres long with delicate heart-shaped leaves. This plant will enjoy the sunniest room of your home.\\n 2. Umbrella Plant: This plant can grow to several metres tall but there is also a dwarf variety available. It prefers dry soil to wet so go easy on watering.\\n 3. Prayer Plant: keep a bit of an eye on it as it doesn’t cope in direct sunlight and benefits from an all-purpose fertiliser feed every month.\\n 4. To remove screw fitting bulb: Keep gently twisting anticlockwise until the bulb comes loose from the socket.",
+        "img_URL": "../public/assets/images/botany2.jpg",
+        "difficulty": "easy",
+        "category_id": "Botany"
+    }
+
+
 ]
+
