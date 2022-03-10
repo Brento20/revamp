@@ -1,15 +1,20 @@
 <!-- TODO: Display the Project details -->
-<div class="text-center">
-  <h2>Hardcoded Project</h2>
-  <p>{{{get_emoji}}}</p>
-  <p>A hardcoded project description that you should replace with something dynamic</p>
-  <p>Created by Hardcoded User on 01/01/2022</p>
-  <p>
-    <span for="img" aria-label="money">💲</span>
-    <span class="dollar-amount">5,000</span>
-    needed
-  </p>
-  <p>
-    <button class="btn btn-primary">Fund this Project!</button>
-  </p>
+  <h2>Plumbing</h2>
+  <p>This is the plumbing guide{{body}}</p>
+  <ol>
+    <li>How to fix a leaky faucet.</li>
+    <li>How to unclog a shower drain.</li>
+    <li>How to seal a cracked pipe.</li>
+    <li>How to stop the roof from leaking.</li>
+  </ol>
 </div>
+
+  {{#if logged_in}}
+  <body>
+  {{!-- {{#if 'project/2'}} --}}
+  <p><a href='/project/1/add_tip'>add your tip here!</a></p>
+  </body>
+  <script src="/js/logout.js"></script>
+  {{/if}}
+
+

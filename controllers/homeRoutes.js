@@ -2,7 +2,7 @@ const router = require('express').Router();
 
 router.get('/', async (req, res) => {
   try {
-    // TODO: Get all Projects and JOIN with User data
+    //Get all Projects and JOIN with User data
 
     res.render('homepage', { 
       logged_in: req.session.logged_in 
@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
 
 router.get('/project/:id', async (req, res) => {
   try {
-    // TODO: Get single Project and JOIN with User data
+    //Get single Project and JOIN with User data
 
     res.render('project', {
       logged_in: req.session.logged_in
@@ -24,11 +24,21 @@ router.get('/project/:id', async (req, res) => {
   }
 });
 
-// TODO: Use withAuth middleware to prevent access to route
+//Create New Project
+router.get('/project/1/add_tip', async (req, res) => {
+  try {
+    res.render('profile', {
+      logged_in: req.session.logged_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+//Use withAuth middleware to prevent access to route
 router.get('/profile', async (req, res) => {
   try {
-    // TODO: Find the logged in User based on the session ID and JOIN with Project
-
+    //Find the logged in User based on the session ID and JOIN with Project
     res.render('profile', {
       logged_in: req.session.logged_in
     });
@@ -38,8 +48,7 @@ router.get('/profile', async (req, res) => {
 });
 
 router.get('/login', (req, res) => {
-  // TODO: If the user is already logged in, redirect the request to another route
-
+  //If the user is already logged in, redirect the request to another route
   res.render('login');
 });
 
