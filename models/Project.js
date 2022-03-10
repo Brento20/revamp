@@ -11,20 +11,16 @@ Project.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    category: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
+    issue: {
       type: DataTypes.STRING,
-    },
-    date_created: {
-      type: DataTypes.DATE,
       allowNull: false,
-      defaultValue: DataTypes.NOW,
     },
-    needed_funding: {
-      type: DataTypes.FLOAT,
+    instructions: {
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     user_id: {
@@ -45,3 +41,14 @@ Project.init(
 );
 
 module.exports = Project;
+
+
+
+
+// {
+//   "category": "Plumbing",
+//   "issue": "How to unclog a shower drain",
+//   "instructions": "Pull the hair out"
+//   "difficulty": "medium",
+//   "img_URL": "data:image/jpeg;base64,
+// },
