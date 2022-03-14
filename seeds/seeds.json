@@ -1,21 +1,21 @@
 [
     {
         "issue": "Preparing your wall before applying the paint is crucial for professional results.",
-        "instructions": "1. Clean your walls with sugar soap\\n 2. Scrape cracked paint off the walls\\n 3. Apply gap filler to any cracks \\n 4. Sand off the filler",
+        "instructions": "1. Clean your walls with sugar soap<br> 2. Scrape cracked paint off the walls<br> 3. Apply gap filler to any cracks <br> 4. Sand off the filler",
         "img_URL": "../public/assets/images/paint1.jpg",
         "difficulty": "medium",
         "category": "Painting"
     },
     {
         "issue": "It's important to apply an undercoat to provide a layer for paint to adhere to and make the surface flatter.",
-        "instructions": "1. Protect the floor\\n 2. Prepare the walls (Check out our separate tutorial for that!) \\n 3.Remove all furniture and tape up hardware and fixtures\\n 4. Cut in the undercoat: Use a paint brush to cut in around the edges and corners\\n5. Apply the undercoat with a roller\\n6. Remove the masking tape: An hour after painting, peel the masking tape off slowly, holding the end at a 45-degree angle away from the wall. Don't wait until the undercoat is dry because the undercoat may crack and lift when you peel the tape off.",
+        "instructions": "1. Protect the floor<br> 2. Prepare the walls (Check out our separate tutorial for that!) <br> 3.Remove all furniture and tape up hardware and fixtures<br> 4. Cut in the undercoat: Use a paint brush to cut in around the edges and corners<br>5. Apply the undercoat with a roller<br>6. Remove the masking tape: An hour after painting, peel the masking tape off slowly, holding the end at a 45-degree angle away from the wall. Don't wait until the undercoat is dry because the undercoat may crack and lift when you peel the tape off.",
         "img_URL": "../public/assets/images/paint2",
         "difficulty": "easy",
         "category": "Painting"
     },
     {
         "issue": "After preparing the wall and applying undercoat (Check out our tutorials for that!) it's time to do some painting!",
-        "instructions": "1. Remove all furniture and tape up hardware and fixtures\\n 2. Choose your colour scheme: this depends on furniture color as well as personal preference. \\n 3. Choose between water or oil based paints: oil is more durable.\\n 4. Choose the right amount of paint: 1 litre of paint will roughly cover about 16 square metres of surface.\\n5. When to use brushes and rollers: Brushes are used when cutting in around walls and ceilings while Rollers are a quick and efficient way of filling in large spaces.",
+        "instructions": "1. Remove all furniture and tape up hardware and fixtures<br> 2. Choose your colour scheme: this depends on furniture color as well as personal preference. <br> 3. Choose between water or oil based paints: oil is more durable.<br> 4. Choose the right amount of paint: 1 litre of paint will roughly cover about 16 square metres of surface.<br>5. When to use brushes and rollers: Brushes are used when cutting in around walls and ceilings while Rollers are a quick and efficient way of filling in large spaces.",
         "img_URL": "../public/assets/images/paint3",
         "difficulty": "medium",
         "category": "Painting"
@@ -23,7 +23,7 @@
 
     {
         "issue": "These tips will help you unclog your toilet.",
-        "instructions": "1. Use the plunger: While this tool might appear basic, it remains the best way of unclogging a toilet.\\n 2. Vinegar and Baking Soda: We recommend you add a cup of baking soda to your blocked toilet and wait for some minutes. Next, pour two cups of vinegar slowly into the toilet.\\n 3. Hot Water and Dish Soap: Heat up a gallon of hot water on the stove and pour some dish soap into your toilet while the water is heating up. When the water is extremely hot, but not boiling, pour into the toilet carefully. Wait for 10-15 minutes while the dish soap and hot water soften the clog.",
+        "instructions": "1. Use the plunger: While this tool might appear basic, it remains the best way of unclogging a toilet.<br>2. Vinegar and Baking Soda: We recommend you add a cup of baking soda to your blocked toilet and wait for some minutes. Next, pour two cups of vinegar slowly into the toilet.<br> 3. Hot Water and Dish Soap: Heat up a gallon of hot water on the stove and pour some dish soap into your toilet while the water is heating up. When the water is extremely hot, but not boiling, pour into the toilet carefully. Wait for 10-15 minutes while the dish soap and hot water soften the clog.",
         "img_URL": "../public/assets/images/plumb1.jpg",
         "difficulty": "medium",
         "category": "Plumbing"
@@ -31,7 +31,7 @@
 
     {
         "issue": "These tips will help you unclog your shower drain.",
-        "instructions": "1.  check your drain for a visible obstruction.\\n 2. Use a drain snake.\\n 3. Use a pot of boiling water. \\n4. If all the previous steps didn't work then it's time to call a plumber!",
+        "instructions": "1.  check your drain for a visible obstruction.<br> 2. Use a drain snake.<br> 3. Use a pot of boiling water. <br>4. If all the previous steps didn't work then it's time to call a plumber!",
         "img_URL": "../public/assets/images/plumb2.jpg",
         "difficulty": "medium",
         "category": "Plumbing"
@@ -39,7 +39,7 @@
 
     {
         "issue": "Changing a light bulb is one of the easiest things you can do. Let us show you how.",
-        "instructions": "1. Turn off the power\\n 2. Let it cool.\\n 3. Ensure you can safely reach the bulb, use a ladder if you need to\\n 4. Remove the old bulb and replace it with the new (Check our guide for bulb mount types!)\\n 5. Turn on power and check if new bulb is working. \\n 6. Disppose of old bulb safely according to regulations in youe country.",
+        "instructions": "1. Turn off the power<br> 2. Let it cool.<br> 3. Ensure you can safely reach the bulb, use a ladder if you need to<br> 4. Remove the old bulb and replace it with the new (Check our guide for bulb mount types!)<br> 5. Turn on power and check if new bulb is working. <br> 6. Disppose of old bulb safely according to regulations in youe country.",
         "img_URL": "../public/assets/images/elec2.jpg",
         "difficulty": "easy",
         "category": "Electricity"
@@ -47,7 +47,7 @@
 
     {
         "issue": "Changing a light bulb is one of the easiest things you can do. Let us show you how.",
-        "instructions": "1. Before changing light bulbs, get to know which mount the old one is to avoid unneccassary trips to the store.\\n 2. As you can see in the picture there are 2 types of bulb mounts, and each types comes in different sizes as well.\\n 3. To remove Bayonet bulb: Grasp the bulb lightly but firmly, push upwards gently and turn anticlockwise until it is released from the socket. \\n 4. To remove screw fitting bulb: Keep gently twisting anticlockwise until the bulb comes loose from the socket.",
+        "instructions": "1. Before changing light bulbs, get to know which mount the old one is to avoid unneccassary trips to the store.<br> 2. As you can see in the picture there are 2 types of bulb mounts, and each types comes in different sizes as well.<br> 3. To remove Bayonet bulb: Grasp the bulb lightly but firmly, push upwards gently and turn anticlockwise until it is released from the socket. <br> 4. To remove screw fitting bulb: Keep gently twisting anticlockwise until the bulb comes loose from the socket.",
         "img_URL": "../public/assets/images/elec3.jpg",
         "difficulty": "easy",
         "category": "Electricity"
@@ -55,7 +55,7 @@
 
     {
         "issue": "Bring your home to life with plants that thrive on the inside!",
-        "instructions": "1. String of hearts: it can grow long, fine strands up to several metres long with delicate heart-shaped leaves. This plant will enjoy the sunniest room of your home.\\n 2. Umbrella Plant: This plant can grow to several metres tall but there is also a dwarf variety available. It prefers dry soil to wet so go easy on watering.\\n 3. Prayer Plant: keep a bit of an eye on it as it doesn’t cope in direct sunlight and benefits from an all-purpose fertiliser feed every month.\\n 4. To remove screw fitting bulb: Keep gently twisting anticlockwise until the bulb comes loose from the socket.",
+        "instructions": "1. String of hearts: it can grow long, fine strands up to several metres long with delicate heart-shaped leaves. This plant will enjoy the sunniest room of your home.<br> 2. Umbrella Plant: This plant can grow to several metres tall but there is also a dwarf variety available. It prefers dry soil to wet so go easy on watering.<br> 3. Prayer Plant: keep a bit of an eye on it as it doesn’t cope in direct sunlight and benefits from an all-purpose fertiliser feed every month.<br> 4. To remove screw fitting bulb: Keep gently twisting anticlockwise until the bulb comes loose from the socket.",
         "img_URL": "../public/assets/images/botany2.jpg",
         "difficulty": "easy",
         "category_id": "Botany"
@@ -64,7 +64,7 @@
 
     {
         "issue": "Know your soil type!",
-        "instructions": "1. Clay soils: have tiny, dense particles that hold large reserves of moisture and nutrients. However, clay soil also drains slowly and can become hard and compacted when dry.\\n 2. Sandy soils are just the opposite, with large particles that water moves through easily — along with important nutrients.\\n 3. Silts have fine particle sizes that pack together tightly, inhibiting drainage and air circulation.\\n 4. Loam is the ideal soil for most plants; it contains a balance of all three mineral particles and is rich in humus (what’s left after organic matter decomposes).",
+        "instructions": "1. Clay soils: have tiny, dense particles that hold large reserves of moisture and nutrients. However, clay soil also drains slowly and can become hard and compacted when dry.<br> 2. Sandy soils are just the opposite, with large particles that water moves through easily — along with important nutrients.<br> 3. Silts have fine particle sizes that pack together tightly, inhibiting drainage and air circulation.<br> 4. Loam is the ideal soil for most plants; it contains a balance of all three mineral particles and is rich in humus (what’s left after organic matter decomposes).",
         "img_URL": "../public/assets/images/botany3.jpg",
         "difficulty": "easy",
         "category_id": "Botany"
@@ -72,7 +72,7 @@
 
     {
         "issue": "Woodwork idead for beginners",
-        "instructions": "1. A cutting board: who doesn't love a rustic wooden cutting board? \\n 2. A wooden door mat: a great way to dry off wet shoes without getting a soggy mat.\\n 3. A sofa sleeve: Sofa sleeves make it easy to lounge on the couch with a hot cup of tea.",
+        "instructions": "1. A cutting board: who doesn't love a rustic wooden cutting board? <br> 2. A wooden door mat: a great way to dry off wet shoes without getting a soggy mat.<br> 3. A sofa sleeve: Sofa sleeves make it easy to lounge on the couch with a hot cup of tea.",
         "img_URL": "../public/assets/images/wood1.jpg",
         "difficulty": "easy",
         "category_id": "Woodworking"
@@ -80,7 +80,7 @@
 
     {
         "issue": "Beginner's guide to must have woodworking tools",
-        "instructions": "1. Hand saws. \\n 2. Hammer. \\n 3. Screw Gun. \\n 4. Workbench. \\n 5. Drill",
+        "instructions": "1. Hand saws. <br> 2. Hammer. <br> 3. Screw Gun. <br> 4. Workbench. <br> 5. Drill",
         "img_URL": "../public/assets/images/wood2.jpg",
         "difficulty": "easy",
         "category_id": "Woodworking"
