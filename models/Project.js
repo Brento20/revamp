@@ -11,10 +11,6 @@ Project.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    category: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
     issue: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -23,14 +19,26 @@ Project.init(
       type: DataTypes.TEXT,
       allowNull: false,
     },
-    user_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'user',
-        key: 'id',
-      },
+    img_URL: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
-  },
+    difficulty: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    category: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      defaultValue: "Home Repair"
+    },
+    // user_id: {
+    //   type: DataTypes.INTEGER,
+    //   references: {
+    //     model: 'user',
+    //     key: 'id',
+    //   },
+    },
   {
     sequelize,
     timestamps: false,
