@@ -71,6 +71,19 @@ router.get('/project/5', async (req, res) => {
     }
 });
 
+//Navigate to SummaryCard
+router.get('/project/s', async (req, res) => {
+  try {
+    // projectData.get({ plain: true });
+    res.render('summarycard', {
+      logged_in: req.session.logged_in
+    });
+
+    } catch (err) {
+        res.status(500).json(err);
+    }
+});
+
 //Create New Project
 router.get('/project/:id/add_tip', async (req, res) => {
   try {
