@@ -39,18 +39,27 @@ router.get('/project/2', async (req, res) => {
 //Navigate to Plumbing
 router.get('/project/3', async (req, res) => {
   try {
+    //fetch project with id from database 
+    //project findbypk or id
+    const projectData = await Project.findAll({where: {category: "Plumbing"} })
+    const projects = projectData.map((project) => project.get({ plain: true }));
+    // projectData.get({ plain: true });
+    //post route: add category before adding...
     res.render('plumbing', {
-      logged_in: req.session.logged_in
+      logged_in: req.session.logged_in, projects
     });  
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
+// const dishes = dishData.map((dish) => dish.get({ plain: true }));
+
+
 //Navigate to Electrical
 router.get('/project/4', async (req, res) => {
   try {
-    res.render('plumbing', {
+    res.render('electrical', {
       logged_in: req.session.logged_in
     });  
   } catch (err) {

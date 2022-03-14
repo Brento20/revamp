@@ -3,6 +3,9 @@
   <p>Go with the flow</p>
   <p>{{summarycard}}</p>
   <ol>
+    {{#each projects as |project|}}
+    <li>{{project.issue}}</li>
+    {{/each}}
     <li><a href='project/1/1'>How to fix a leaky faucet.{{issue}}</a></li>
       <p>{{instructions}}</p>
       <img href="{{img_URL}}">Image</img>
