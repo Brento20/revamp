@@ -58,7 +58,7 @@ router.get('/project/plumbing', async (req, res) => {
 //Navigate to Electrical
 router.get('/project/electrical', async (req, res) => {
   try {
-    const projectData = await Project.findAll({where: {category: "Woodworking"} })
+    const projectData = await Project.findAll({where: {category: "Electrical"} })
     const projects = projectData.map((project) => project.get({ plain: true }));
     res.render('electrical', {
       logged_in: req.session.logged_in, projects
@@ -71,7 +71,7 @@ router.get('/project/electrical', async (req, res) => {
 //Navigate to Botany
 router.get('/project/botany', async (req, res) => {
   try {
-    const projectData = await Project.findAll({where: {category: "Woodworking"} })
+    const projectData = await Project.findAll({where: {category: "Botany"} })
     const projects = projectData.map((project) => project.get({ plain: true }));
     res.render('botany', {
       logged_in: req.session.logged_in, projects
