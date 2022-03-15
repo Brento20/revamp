@@ -22,11 +22,11 @@ async function newProjectHandler(event) {
             'Content-Type': 'application/json',
         },
     });
-
+    console.log("request sent");
     if (response.ok) {
         //maybe update a span with "Your tip has been added successfully"
         //document.location.replace('/');
-        document.getElementById("results").textContent = "Project added";
+        document.getElementById("results").textContent = "Project added Successfully!";
     } else {
         alert('Failed to add project');
     }
