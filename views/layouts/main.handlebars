@@ -27,10 +27,10 @@
                 <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/project/electrical">Electrical</a>
+                <a class="nav-link" href="#">Electrical</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/project/woodworking">Wood Working</a>
+                <a class="nav-link" href="#">Wood Working</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/project/botany">Botany</a>
@@ -38,13 +38,14 @@
             <li class="nav-item">
                 <a class="nav-link" href="/project/painting">Painting</a>
             </li>
+
             {{#if logged_in}}
-            <li class="nav-link"> 
-                <a href="/profile"> Profile </a></li>
+            <a href="/profile">profile</a> |
+            <button class="no-button" id="logout">logout</button>
             {{else}}
-            <li class="nav-link"> 
-                <a href="/login">login</a></li>
+            <a href="/login">login</a>
             {{/if}}
+            
         </ul>
 
     </header>
