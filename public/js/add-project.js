@@ -35,6 +35,7 @@ async function newProjectHandler(event) {
                     document.getElementById("title-error").textContent = "";
                     document.getElementById("steps-error").textContent = "";
                     document.getElementById("img-error").textContent = "";
+                    document.getElementById("add-project-form").reset();
                 } else {
                     alert('Failed to add project');
                 }
