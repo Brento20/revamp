@@ -1,13 +1,15 @@
 <!-- TODO: Display the Project details -->
   <h2>Electrical</h2>
   <p>Plugging In</p>
-  <ol>
-    <li><a href='project/1/1'>How to fix a leaky faucet.{{issue}}</a></li>
-    <li>How to unclog a shower drain.</li>
-    <li>How to seal a cracked pipe.</li>
-    <li>How to stop the roof from leaking.</li>
-  </ol>
-</div>
+
+<ul>
+    {{#each projects as |project|}}
+    <img src="{{img_URL}}">Image</img>
+    <li>{{project.issue}}</li>
+    <div>{{{project.instructions}}}</div><br>
+    <div>Difficulty: {{project.difficulty}}</div><br><br>
+    {{/each}}
+  </ul>
 
   {{#if logged_in}}
   <body>
@@ -16,5 +18,7 @@
   </body>
   <script src="/js/logout.js"></script>
   {{/if}}
+
+
 
 

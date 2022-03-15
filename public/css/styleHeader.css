@@ -1,0 +1,94 @@
+/* CSS Specific to the header */
+
+/* ======== Header ======== */
+header {
+    max-width: 1024px;
+    height: 500px;
+    padding-top: 30px;
+    background-image: url(../images/placeholder.png);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+/* ======== Top section header ======== */
+.headTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.navMenu ul {
+    display:flex;
+    line-height: 2.5;
+    background-color: var(--accentColor);
+    color: var(--lightText);
+    width: 300px;
+    font-weight: 300;
+}
+.floatingLogo {
+    height:150px;
+    width:150px;
+    background-image: url(../images/profileImage.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    margin-right: 30px;
+    margin-left: 30px;;
+}
+a {
+    text-decoration: none;
+    color: var(--lightText);
+}
+
+
+
+/* ======== Top section header ======== */
+.headMiddle {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+h1 {
+    font-size: 3rem;
+    color: var(--lightText);
+    font-weight: 100;
+    line-height: 1.5;
+    margin-left: 5%;
+    margin-right: 5%;    
+}
+
+
+/* ======== Bottom section header ======== */
+.headBottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--lightText);
+    font-weight: 600;
+    line-height: 1.5;
+    margin-right: 30px;
+}
+
+li {
+    transition: all .2s ease-in-out;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0);
+    transform: scale(1.1);
+    text-shadow: 4px 2px 4px #0000005b;
+}
