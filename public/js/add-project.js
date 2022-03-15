@@ -32,6 +32,9 @@ async function newProjectHandler(event) {
                 console.log("request sent");
                 if (response.ok) {
                     document.getElementById("results").textContent = "Project added Successfully!";
+                    document.getElementById("title-error").textContent = "";
+                    document.getElementById("steps-error").textContent = "";
+                    document.getElementById("img-error").textContent = "";
                 } else {
                     alert('Failed to add project');
                 }
