@@ -6,9 +6,10 @@ async function newProjectHandler(event) {
     //const imgURL = document.querySelector('#').value;
     const imgURL = "";
     const difficulty = document.querySelector('#diff-radio-btn input:radio:checked').value;
+    // const difficulty = "Easy";
     const category = document.querySelector('#category-radio-btn input:radio:checked').value;
 
-    const response = await fetch(`/api/dish`, {
+    const response = await fetch(`/add_tip`, {
         method: 'POST',
         body: JSON.stringify({
             issue,
@@ -25,6 +26,7 @@ async function newProjectHandler(event) {
     if (response.ok) {
         //maybe update a span with "Your tip has been added successfully"
         //document.location.replace('/');
+        document.getElementById("results").textContent = "Project added";
     } else {
         alert('Failed to add project');
     }
