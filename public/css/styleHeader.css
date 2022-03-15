@@ -67,6 +67,11 @@ h1 {
     margin-right: 5%;    
 }
 
+#menuBox {
+    max-width: 960px;
+    background-color: rgb(82, 82, 189);
+}
+
 
 /* ======== Bottom section header ======== */
 .headBottom {
