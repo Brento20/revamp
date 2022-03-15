@@ -6,12 +6,14 @@ async function newProjectHandler(event) {
     const instructions = document.querySelector('#project-instructions').value;
     console.log(instructions);
     //const imgURL = document.querySelector('#').value;
-    const imgURL = "";
+    const img_URL = "";
+    const difficulty = document.querySelector('[name="flexRadioDefault"]:checked').value;
     //const difficulty = document.querySelector('#diff-radio-btn input:radio:checked').value;
     //console.log(difficulty);
-    const difficulty = "Easy";
+    // const difficulty = "Easy";
     //const category = document.querySelector('#category-radio-btn input:radio:checked').value;
-    const category = "Plumbing";
+    //const category = "Plumbing";
+    const category = document.querySelector('[name="btnradio"]:checked').value;
     console.log(category);
 
     const response = await fetch(`/add_tip`, {
@@ -19,7 +21,7 @@ async function newProjectHandler(event) {
         body: JSON.stringify({
             issue,
             instructions,
-            imgURL,
+            img_URL,
             difficulty,
             category,
         }),
