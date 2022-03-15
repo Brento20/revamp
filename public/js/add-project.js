@@ -2,12 +2,16 @@ async function newProjectHandler(event) {
     event.preventDefault();
 
     const issue = document.querySelector('#project-issue').value;
+    console.log(issue);
     const instructions = document.querySelector('#project-instructions').value;
+    console.log(instructions);
     //const imgURL = document.querySelector('#').value;
     const imgURL = "";
     const difficulty = document.querySelector('#diff-radio-btn input:radio:checked').value;
+    console.log(difficulty);
     // const difficulty = "Easy";
     const category = document.querySelector('#category-radio-btn input:radio:checked').value;
+    console.log(category);
 
     const response = await fetch(`/add_tip`, {
         method: 'POST',
