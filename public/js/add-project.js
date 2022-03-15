@@ -6,7 +6,7 @@ async function newProjectHandler(event) {
     const instructions = document.querySelector('#project-instructions').value;
     console.log(instructions);
     //const imgURL = document.querySelector('#').value;
-    const img_URL = "";
+    const img_URL = document.getElementById("project-img").value;
     const difficulty = document.querySelector('[name="levelRadio"]:checked').value;
     //const difficulty = document.querySelector('#diff-radio-btn input:radio:checked').value;
     //console.log(difficulty);

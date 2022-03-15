@@ -12,19 +12,23 @@
     <form class="form new-project-form">
       <div class="form-group">
         <label for="project-name">Title</label>
-        <input class="form-input" type="text" id="project-issue" name="project-name" />
+        <input class="form-input" type="text" id="project-issue" name="project-name"  />
       </div>
       <div class="form-group">
         <label for="project-desc">Instructions</label>
-        <textarea class="form-input" id="project-instructions" name="project-desc"></textarea>
+        <textarea class="form-input" id="project-instructions" name="project-desc" ></textarea>
       </div>
       <div class="form-group">
 
-        
+        <div class="form-group">
+        <label for="project-img">Image URL</label>
+        <input class="form-input" type="text" id="project-img" name="project-img"  />
+      </div>
+
         <label  class="p-3 pl-0">Select Difficulty Level</label><br>
 
        <div id="diff-radio-btn" class="form-check p-1">
-  <input class="form-check-input" type="radio" name="levelRadio" id="flexRadioDefault1" value="Easy" >
+  <input class="form-check-input" type="radio" name="levelRadio" id="flexRadioDefault1" value="Easy" checked>
   <label class="form-check-label" for="flexRadioDefault1">
     Easy
   </label>
@@ -36,7 +40,7 @@
   </label>
 </div>
 <div class="form-check p-1">
-  <input class="form-check-input" type="radio" name="levelRadio" id="flexRadioDefault3" value="Hard" checked >
+  <input class="form-check-input" type="radio" name="levelRadio" id="flexRadioDefault3" value="Hard"  >
   <label class="form-check-label" for="flexRadioDefault3">
     Hard
   </label>
@@ -46,7 +50,7 @@
         <label for="project-desc" class="p-3 pl-0">Select Category</label><br>
 
         <div id="category-radio-btn " class="btn-group pb-3" role="group" aria-label="Basic radio toggle button group">
-  <input type="radio" class="btn-check m-5" name="categoryRadio" id="btnradio1" autocomplete="off" value="Painting">
+  <input type="radio" class="btn-check m-5" name="categoryRadio" id="btnradio1" autocomplete="off" value="Painting" checked>
   <label class="btn btn-info" for="btnradio1" >Painting</label>
 
   <input type="radio" class="btn-check m-5" name="categoryRadio" id="btnradio2" autocomplete="off" value="Woodworking">
