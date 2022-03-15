@@ -7,13 +7,13 @@ async function newProjectHandler(event) {
     console.log(instructions);
     //const imgURL = document.querySelector('#').value;
     const img_URL = "";
-    const difficulty = document.querySelector('[name="flexRadioDefault"]:checked').value;
+    const difficulty = document.querySelector('[name="levelRadio"]:checked').value;
     //const difficulty = document.querySelector('#diff-radio-btn input:radio:checked').value;
     //console.log(difficulty);
     // const difficulty = "Easy";
     //const category = document.querySelector('#category-radio-btn input:radio:checked').value;
     //const category = "Plumbing";
-    const category = document.querySelector('[name="btnradio"]:checked').value;
+    const category = document.querySelector('[name="categoryRadio"]:checked').value;
     console.log(category);
 
     const response = await fetch(`/add_tip`, {
