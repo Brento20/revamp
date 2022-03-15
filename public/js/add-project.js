@@ -7,10 +7,11 @@ async function newProjectHandler(event) {
     console.log(instructions);
     //const imgURL = document.querySelector('#').value;
     const imgURL = "";
-    const difficulty = document.querySelector('#diff-radio-btn input:radio:checked').value;
-    console.log(difficulty);
-    // const difficulty = "Easy";
-    const category = document.querySelector('#category-radio-btn input:radio:checked').value;
+    //const difficulty = document.querySelector('#diff-radio-btn input:radio:checked').value;
+    //console.log(difficulty);
+    const difficulty = "Easy";
+    //const category = document.querySelector('#category-radio-btn input:radio:checked').value;
+    const category = "Plumbing";
     console.log(category);
 
     const response = await fetch(`/add_tip`, {
@@ -36,6 +37,4 @@ async function newProjectHandler(event) {
     }
 }
 
-document
-    .querySelector('#submit-btn')
-    .addEventListener('submit', newProjectHandler);
+document.getElementById('submit-btn').addEventListener('click', newProjectHandler);
