@@ -4,21 +4,18 @@ const Project = require('../models/Project');
 //Navigate to Homepage
 router.get('/', async (req, res) => {
   try {
-    const projectData = await Project.findAll({where: {category: "Woodworking"} })
-    const projects = projectData.map((project) => project.get({ plain: true }));
     res.render('homepage', { 
-      logged_in: req.session.logged_in, projects 
+      logged_in: req.session.logged_in
     });
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
-
 //Navigate to Painting 
 router.get('/project/painting', async (req, res) => {
   try {
-    const projectData = await Project.findAll({where: {category: "Painting"} })
+    const projectData = await Project.findAll({where: {category: "painting"} })
     const projects = projectData.map((project) => project.get({ plain: true }));
     res.render('painting', {
       logged_in: req.session.logged_in, projects
@@ -31,7 +28,7 @@ router.get('/project/painting', async (req, res) => {
 //Navigate to Woodworking
 router.get('/project/woodworking', async (req, res) => {
   try {
-    const projectData = await Project.findAll({where: {category: "Woodworking"} })
+    const projectData = await Project.findAll({where: {category: "woodworking"} })
     const projects = projectData.map((project) => project.get({ plain: true }));
     res.render('woodworking', {
       logged_in: req.session.logged_in, projects
@@ -46,7 +43,7 @@ router.get('/project/plumbing', async (req, res) => {
   try {
     //fetch project with id from database 
     //project findbypk or id
-    const projectData = await Project.findAll({where: {category: "Plumbing"} })
+    const projectData = await Project.findAll({where: {category: "plumbing"} })
     const projects = projectData.map((project) => project.get({ plain: true }));
     // projectData.get({ plain: true });
     //post route: add category before adding...
@@ -60,11 +57,10 @@ router.get('/project/plumbing', async (req, res) => {
 
 // const dishes = dishData.map((dish) => dish.get({ plain: true }));
 
-
 //Navigate to Electrical
 router.get('/project/electrical', async (req, res) => {
   try {
-    const projectData = await Project.findAll({where: {category: "Woodworking"} })
+    const projectData = await Project.findAll({where: {category: "electrical"} })
     const projects = projectData.map((project) => project.get({ plain: true }));
     res.render('electrical', {
       logged_in: req.session.logged_in, projects
@@ -77,7 +73,7 @@ router.get('/project/electrical', async (req, res) => {
 //Navigate to Botany
 router.get('/project/botany', async (req, res) => {
   try {
-    const projectData = await Project.findAll({where: {category: "Woodworking"} })
+    const projectData = await Project.findAll({where: {category: "botany"} })
     const projects = projectData.map((project) => project.get({ plain: true }));
     res.render('botany', {
       logged_in: req.session.logged_in, projects
