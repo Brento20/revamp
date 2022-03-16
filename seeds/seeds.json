@@ -1,5 +1,4 @@
-[
-    {
+[{
         "issue": "Preparing your wall before applying the paint is crucial for professional results.",
         "instructions": "1. Clean your walls with sugar soap<br> 2. Scrape cracked paint off the walls<br> 3. Apply gap filler to any cracks <br> 4. Sand off the filler",
         "img_URL": "/assets/images/paint1.jpg",
@@ -14,7 +13,7 @@
         "category": "painting"
     },
     {
-        "issue": "After preparing the wall and applying undercoat (Check out our tutorials for that!) it's time to do some painting!",
+        "issue": "After preparing the wall and applying undercoat it's time to do some painting!",
         "instructions": "1. Remove all furniture and tape up hardware and fixtures<br> 2. Choose your colour scheme: this depends on furniture color as well as personal preference. <br> 3. Choose between water or oil based paints: oil is more durable.<br> 4. Choose the right amount of paint: 1 litre of paint will roughly cover about 16 square metres of surface.<br>5. When to use brushes and rollers: Brushes are used when cutting in around walls and ceilings while Rollers are a quick and efficient way of filling in large spaces.",
         "img_URL": "/assets/images/paint3.jpg",
         "difficulty": "medium",
@@ -46,9 +45,9 @@
     },
 
     {
-        "issue": "Changing a light bulb is one of the easiest things you can do. Let us show you how.",
+        "issue": "What are the different bulb mount types?",
         "instructions": "1. Before changing light bulbs, get to know which mount the old one is to avoid unneccassary trips to the store.<br> 2. As you can see in the picture there are 2 types of bulb mounts, and each types comes in different sizes as well.<br> 3. To remove Bayonet bulb: Grasp the bulb lightly but firmly, push upwards gently and turn anticlockwise until it is released from the socket. <br> 4. To remove screw fitting bulb: Keep gently twisting anticlockwise until the bulb comes loose from the socket.",
-        "img_URL": "/assets/images/elec3.png",
+        "img_URL": "/assets/images/elec3.jpg",
         "difficulty": "easy",
         "category": "electrical"
     },
@@ -71,7 +70,7 @@
     },
 
     {
-        "issue": "Woodwork idead for beginners",
+        "issue": "Woodwork ideas for beginners",
         "instructions": "1. A cutting board: who doesn't love a rustic wooden cutting board? <br> 2. A wooden door mat: a great way to dry off wet shoes without getting a soggy mat.<br> 3. A sofa sleeve: Sofa sleeves make it easy to lounge on the couch with a hot cup of tea.",
         "img_URL": "/assets/images/wood1.jpg",
         "difficulty": "easy",
