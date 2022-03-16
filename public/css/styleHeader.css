@@ -2,10 +2,11 @@
 
 /* ======== Header ======== */
 header {
-    max-width: 1024px;
-    height: 500px;
+    max-width: 960px;
+    text-decoration: none;
+    height: 300px;
     padding-top: 30px;
-    background-image: url(../images/placeholder.png);
+    background-color: rgb(39, 39, 39);
     background-size: cover;
     background-position: center;
     margin: auto;
@@ -15,25 +16,25 @@ header {
     
 }
 
+img {
+    border-radius: 25px;
+}
+
+#projectBox {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 15px 17px 7px rgba(0,0,0,0.2);
+}
+
 
 
 /* ======== Top section header ======== */
-.headTop {
-    display: flex;
-    justify-content: space-between;
-}
-
-li {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-}
-.navMenu ul {
-    display:flex;
+.menuBox {
     line-height: 2.5;
-    background-color: var(--accentColor);
-    color: var(--lightText);
-    width: 300px;
-    font-weight: 300;
+    color: white;
+    text-decoration: none!;
 }
 .floatingLogo {
     height:150px;
@@ -45,40 +46,28 @@ li {
     margin-right: 30px;
     margin-left: 30px;;
 }
-a {
-    text-decoration: none;
-    color: var(--lightText);
-}
 
 
 
 /* ======== Top section header ======== */
-.headMiddle {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-h1 {
-    font-size: 3rem;
-    color: var(--lightText);
-    font-weight: 100;
-    line-height: 1.5;
-    margin-left: 5%;
-    margin-right: 5%;    
-}
-
 #menuBox {
     max-width: 960px;
-    background-color: rgb(82, 82, 189);
+    font-weight: 700;
+    background: rgb(5, 0, 105);
+    background: linear-gradient(90deg, rgb(199, 196, 255) 0%, rgb(108, 148, 223) 35%, rgb(62, 168, 189) 100%);
+    }
+
+#mainPanel {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(210, 220, 255);
+    box-shadow: inset 0px 5px 15px rgba(0,0,0,0.2);
 }
 
 
 /* ======== Bottom section header ======== */
-.headBottom {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
+
 
 h2 {
     font-size: 2rem;
@@ -89,6 +78,7 @@ h2 {
 }
 
 li {
+    text-decoration: none;
     transition: all .2s ease-in-out;
 }
 
@@ -96,4 +86,15 @@ li:hover {
     background-color: rgba(0, 0, 0, 0);
     transform: scale(1.1);
     text-shadow: 4px 2px 4px #0000005b;
+}
+
+footer {
+    width: 960px;
+    height: 200px;
+    padding-top: 70px;
+    margin: auto;
+    background-color: rgb(39, 39, 39);
+    font-weight: 700;
+    color: white;
+    text-align: center;
 }

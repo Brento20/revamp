@@ -1,0 +1,116 @@
+<div class="row">
+  <div class="col-auto">
+    <!-- TODO: Output the User's name -->
+    <h2>Hey There!</h2>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-12">
+    <h3>What are we fixing today?</h3>
+
+    <form id="add-project-form" class="form new-project-form">
+      <div class="form-group">
+        <label for="project-name">Title</label>
+        <input class="form-input" type="text" id="project-issue" name="project-name"  />
+        <span id="title-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="project-desc">Instructions</label>
+        <textarea class="form-input" id="project-instructions" name="project-desc" ></textarea>
+        <span id="steps-error"></span>
+      </div>
+      <div class="form-group">
+
+        <div class="form-group">
+        <label for="project-img">Image URL</label>
+        <input class="form-input" type="text" id="project-img" name="project-img"  />
+        <span id="img-error"></span>
+      </div>
+
+        <label  class="p-3 pl-0">Select Difficulty Level</label><br>
+
+       <div id="diff-radio-btn" class="form-check p-1">
+  <input class="form-check-input" type="radio" name="levelRadio" id="flexRadioDefault1" value="Easy" checked>
+  <label class="form-check-label" for="flexRadioDefault1">
+    Easy
+  </label>
+</div>
+<div class="form-check p-1">
+  <input class="form-check-input" type="radio" name="levelRadio" id="flexRadioDefault2" value="Medium" >
+  <label class="form-check-label" for="flexRadioDefault2">
+    Medium
+  </label>
+</div>
+<div class="form-check p-1">
+  <input class="form-check-input" type="radio" name="levelRadio" id="flexRadioDefault3" value="Hard"  >
+  <label class="form-check-label" for="flexRadioDefault3">
+    Hard
+  </label>
+</div>
+
+
+        <label for="project-desc" class="p-3 pl-0">Select Category</label><br>
+
+        <div id="category-radio-btn " class="btn-group pb-3" role="group" aria-label="Basic radio toggle button group">
+  <input type="radio" class="btn-check m-5" name="categoryRadio" id="btnradio1" autocomplete="off" value="Painting" checked>
+  <label class="btn btn-info" for="btnradio1" >Painting</label>
+
+  <input type="radio" class="btn-check m-5" name="categoryRadio" id="btnradio2" autocomplete="off" value="Woodworking">
+  <label class="btn btn-info" for="btnradio2">Woodworking</label>
+
+  <input type="radio" class="btn-check m-5" name="categoryRadio" id="btnradio3" autocomplete="off" value="Plumbing">
+  <label class="btn btn-info" for="btnradio3">Plumbing</label>
+
+  <input type="radio" class="btn-check m-5" name="categoryRadio" id="btnradio4" autocomplete="off" value="Electrical">
+  <label class="btn btn-info " for="btnradio4">Electrical</label>
+
+  <input type="radio" class="btn-check m-5" name="categoryRadio" id="btnradio5" autocomplete="off" value="Botany">
+  <label class="btn btn-info" for="btnradio5">Botany</label>
+</div>
+
+
+<div class="container w-100">
+  <div class="row justify-content-center">
+    
+      <button id="submit-btn" type="submit" class="btn btn-primary p-5" >Submit Your Tutorial Now!</button>
+    
+    
+  </div>
+</div>
+
+<span id="results"></span>
+       
+        {{!-- <button type="submit" class="btn btn-primary" data-cat="Woodworking">Woodworking</button>
+        <button type="submit" class="btn btn-primary" data-cat="Plumbing">Plumbing</button>
+        <button type="submit" class="btn btn-primary" data-cat="Electrical">Electrical</button>
+        <button type="submit" class="btn btn-primary" data-cat="Botany">Botany</button> --}}
+      </div>
+    </form>
+  </div>
+
+  <!-- TODO: Only show this list if the User has Projects -->
+  {{!-- <div class="col-md-6 project-list">
+    <h3>Current Projects:</h3> --}}
+    <!-- TODO: Loop through and render the User's Projects -->
+    {{!-- <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/project/1">Hardcoded Project 1</a></h4>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger" data-id="1">DELETE</button>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/project/2">Hardcoded Project 2</a></h4>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger" data-id="2">DELETE</button>
+      </div>
+    </div>
+  </div>
+</div> --}}
+
+<script src="/js/profile.js"></script>
+<script src="/js/add-project.js"></script>
