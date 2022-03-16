@@ -1,5 +1,7 @@
 const router = require('express').Router();
 const Project = require('../models/Project');
+const User = require('../models/User');
+const nodemailer = require('nodemailer');
 
 //Navigate to Homepage
 router.get('/', async(req, res) => {
@@ -88,38 +90,62 @@ router.get('/project/botany', async(req, res) => {
     }
 });
 
-//Create New Project
+
 // route to create/add a project
 router.post('/add_tip', async(req, res) => {
     try {
         const newProject = await Project.create({
             ...req.body,
-            // user_id: req.session.user_id,
+            //user_id: req.session.user_id,
         });
-        res.status(200).json(newProject);
+
+        // Find the logged in user based on the session ID
+        const userData = await User.findByPk(req.session.user_id, {
+            attributes: { exclude: ['password'] },
+        });
+
+        const user = userData.get({ plain: true });
+
+        console.log(user.email);
+
+        // create reusable transporter object using the default SMTP transport
+        let transporter = nodemailer.createTransport({
+            host: 'smtp-mail.outlook.com', // hostname
+            secureConnection: false, // TLS requires secureConnection to be false
+            port: 587, // port for secure SMTP
+            tls: {
+                rejectUnauthorized: false
+            },
+            auth: {
+                user: 'revampyourlife@outlook.com.au', // generated ethereal user
+                pass: 'nodemailer1234' // generated ethereal password
+            },
+        });
+
+        // prepare mail options
+        var mailOptions = {
+            from: 'revampyourlife@outlook.com.au',
+            to: user.email,
+            subject: 'Your Project Has Been Successfully Added!',
+            text: 'We are delighted to inform you that your project has been added to our database!',
+            html: '<h1>We are delighted to inform you that your project has been added to our database!</h1>'
+        };
+
+        //send mail with defined transport object
+        transporter.sendMail(mailOptions, function(error, info) {
+            if (error) {
+                console.log("sending email error " + error);
+                res.status(400).json(error);
+            } else {
+                console.log('Email sent: ' + info.response);
+                res.status(200).json(newProject);
+            }
+        });
     } catch (err) {
+        console.log(err);
         res.status(400).json(err);
     }
 });
-
-// try {
-
-//     res.render('profile', {
-//         logged_in: req.session.logged_in
-//     });
-
-//     const dishData = await Dish.create({
-//         dish_name: req.body.dish_name,
-//         description: req.body.description,
-
-//         guest_name: req.body.guest_name,
-//         has_nuts: req.body.has_nuts,
-//     });
-//     res.status(200).json(dishData);
-// } catch (err) {
-//     res.status(400).json(err);
-// }
-
 
 
 //Use withAuth middleware to prevent access to route
@@ -139,17 +165,3 @@ router.get('/login', (req, res) => {
 });
 
 module.exports = router;
-
-//Navigate to Category
-// router.get('/project/:id', async (req, res) => {
-//   try {
-//     if (id)
-//     // const project = projectData.get({ plain: true });
-//     res.render('plumbing', {
-//       logged_in: req.session.logged_in
-//     });
-
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-// });
