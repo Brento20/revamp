@@ -2,11 +2,11 @@
 # REvamp Ver 1.0
 
 
-Deployed application link: 
+Deployed application link: https://revampyourlife.herokuapp.com/
 
-Github Repo: 
+Github Repo: https://github.com/Brento20/revamp
 
-Supporting links: 
+Supporting links: https://docs.google.com/presentation/d/1ruXo3vDao-EbNjzMmPUxzPd4qyAUMSioLAh2kHx8uQ0/edit#slide=id.g119d29007e6_0_84
 
 #
 
@@ -68,14 +68,14 @@ Miguel Afable, Mona Mahmoud and Brenton Weaver.
 
 | Task | Status |
 |--|--|
-| Must use Node.js and Express.js to create a RESTful API |  |
-| Must use Handlebars.js as the template engine |  |
-| Must use MySQL and the Sequelize ORM for the database | |
-| Must have both GET and POST routes for retrieving and adding new data | |
-| Must use at least one new library, package, or technology that we haven’t discussed |  |
-| Must have a folder structure that meets the MVC paradigm |  |
-| Must include authentication (express-session and cookies) ||
-| Must protect API keys and sensitive information with environment variables||
+| Must use Node.js and Express.js to create a RESTful API | Done |
+| Must use Handlebars.js as the template engine | Done |
+| Must use MySQL and the Sequelize ORM for the database | Done |
+| Must have both GET and POST routes for retrieving and adding new data | Done |
+| Must use at least one new library, package, or technology that we haven’t discussed | Done |
+| Must have a folder structure that meets the MVC paradigm | Done |
+| Must include authentication (express-session and cookies) | Done|
+| Must protect API keys and sensitive information with environment variables| Done|
 
 
 
