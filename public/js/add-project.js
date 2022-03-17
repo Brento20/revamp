@@ -29,15 +29,19 @@ async function newProjectHandler(event) {
                         'Content-Type': 'application/json',
                     },
                 });
-                console.log("request sent");
+                //console.log("request sent");
                 if (response.ok) {
+                    document.getElementById("results").classList.remove('text-danger');
+                    document.getElementById("results").classList.add('text-info');
                     document.getElementById("results").textContent = "Project added Successfully!";
                     document.getElementById("title-error").textContent = "";
                     document.getElementById("steps-error").textContent = "";
                     document.getElementById("img-error").textContent = "";
                     document.getElementById("add-project-form").reset();
                 } else {
-                    alert('Failed to add project');
+                    document.getElementById("results").classList.remove('text-info');
+                    document.getElementById("results").classList.add('text-danger');
+                    document.getElementById("results").textContent = "Server Error! Please try again later!";
                 }
             }
         }
