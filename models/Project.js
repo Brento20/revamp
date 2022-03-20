@@ -32,13 +32,7 @@ Project.init(
       allowNull: false,
       defaultValue: "Home Repair"
     },
-    // user_id: {
-    //   type: DataTypes.INTEGER,
-    //   references: {
-    //     model: 'user',
-    //     key: 'id',
-    //   },
-    },
+  },
   {
     sequelize,
     timestamps: false,
@@ -49,14 +43,3 @@ Project.init(
 );
 
 module.exports = Project;
-
-
-
-
-// {
-//   "category": "Plumbing",
-//   "issue": "How to unclog a shower drain",
-//   "instructions": "Pull the hair out"
-//   "difficulty": "medium",
-//   "img_URL": "data:image/jpeg;base64,
-// },
