@@ -1,3 +1,5 @@
+// The routes for the project and the implementation of the nodemailer npm 
+
 const router = require('express').Router();
 const Project = require('../models/Project');
 const User = require('../models/User');
