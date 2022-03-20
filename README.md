@@ -1,39 +1,30 @@
 
 # REvamp Ver 1.0
 
+![alt text](./public/assets/images/banner.jpg) <br><br>
+![alt text](./public/assets/images/sample_paint.jpg) <br>
+![alt text](./public/assets/images/query.jpg)
 
-Deployed application link: 
-
-Github Repo: 
-
-Supporting links: 
-
-#
+Link: https://revampyourlife.herokuapp.com/<br>
+Repo: https://github.com/Brento20/revamp<br>
+Support: https://nodemailer.com/about/ <br><br>
 
 
 ## Table of Contents
+[Project Description](#project-description)
 
-  
+[User Story](#User)
 
-0. Developed by and Application Description.
+[Initial Concept](#initial-concept)
 
-1. User Story and Criteria.
+[File Structure](#file-structure)
 
-2. Wire-frame/Chicken Scribble.
+<!-- HTML, [CSS stylesheet planning],javaScript. -->
 
-3. HTML.
+[Usage](#file-structure)
 
-4. CSS stylesheet planing.
-
-5. javaScript.
-
-6. File structure.
-
-7. Future improvements.
-
-  
-
-# 0. Developed by and Application Description
+[Future Development](#future-development)
+<br><br>
 
 ## Project Description
 
@@ -45,54 +36,73 @@ Developed in collaboration with:
 
 Miguel Afable, Mona Mahmoud and Brenton Weaver.
 
-  <br>
- <br> 
+<br>
 
-# 1. User Story.
 
+
+## User Story
 >
->**When I** arrive on the homepage I can click on categories for DIY projects.
+>**When I** arrive on the homepage, I can click on categories for DIY projects.
 >
->**Then** I can click on the category im shown a page with summaries of each project available.
+>**Then** I can click on the category, I'm shown a page with summaries of each project available.
 >
 >**When I** click a project, I see the full method of how to complete the DIY.
 >
-> **When I** click log in I can log in or sign up to the site.
+>**When I** click log in, I can log in or sign up to the site.
 >
->**When I** am logged in user I can create DIY projects and post them with tags to categorize them.
+>**When I** am logged in, I can create DIY projects and post them with tags to categorize them.
 
  <br>
  <br>
 
-  
-
-| Task | Status |
+<!-- | Task | Status |
 |--|--|
-| Must use Node.js and Express.js to create a RESTful API |  |
+| Must use Node.js and Express.js to create a RESTful API | Complete |
 | Must use Handlebars.js as the template engine |  |
 | Must use MySQL and the Sequelize ORM for the database | |
 | Must have both GET and POST routes for retrieving and adding new data | |
 | Must use at least one new library, package, or technology that we haven’t discussed |  |
 | Must have a folder structure that meets the MVC paradigm |  |
 | Must include authentication (express-session and cookies) ||
-| Must protect API keys and sensitive information with environment variables||
+| Must protect API keys and sensitive information with environment variables|| -->
 
+## Initial Concept
 
+<!-- ## Basic Mobile Wire-frame: -->
+<br>![wire-frame](./public/assets/images/wireframe.jpg)<br>
 
-# 2. Wire-frame/Chicken Scribble.
+The title header is consistent for all pages.
 
-## Basic Mobile Wire-frame:
-![wire-frame]()
+The homepage presents an overall description of the site and its purpose.  
 
-## Style Guide:
-![chicken]()
+The navbar buttons are for different sub-topics, and a login button.
 
-  
-  
+Navbar sub-topic button navigate to their respective pages, with seeded preview projects. 
 
-# 3. HTML.
+The login button leads to a signup/login page. 
+Logging in will permit the user to add projects to the site. 
 
-1. Use box structure and bootstrap. (David gave us the all clear to use bootstrap)
+<!-- ## Style Guide:
+![chicken]() -->
+
+## File Structure
+
+### Model-View-Controller
+
+#### Model 
+Initial site data seeds, which consists of instructions/images for main sub-topics.
+MySQL generates the initial database, and Sequelize for seeding and modifying seeds.   
+
+View
+HTML templates via Handlebars, which are 
+
+Controller: 
+
+### Javascript
+
+### 
+
+<!-- 1. Use box structure and bootstrap. (David gave us the all clear to use bootstrap)
 
 2. Create easily readable code
 
@@ -100,7 +110,7 @@ Miguel Afable, Mona Mahmoud and Brenton Weaver.
 
   
 
-# 4. CSS stylesheet planing.
+# 4. CSS stylesheet planing
 
   
 
@@ -111,10 +121,10 @@ Miguel Afable, Mona Mahmoud and Brenton Weaver.
 3. Add external font sheet (google fonts ect)
 
 4. Create custom handlebars 
+ -->
 
 
-
-# 5. JavaScript.
+<!-- # 5. JavaScript.
 
 1. 
 
@@ -127,9 +137,11 @@ Miguel Afable, Mona Mahmoud and Brenton Weaver.
 
 # 6. File structure.
 
-1. 
+1.  -->
 
-# 7. Future improvements.
+## Usage 
+
+### Future Development
 
 
 1. Social integration for users to share projects stories on popular social media sites.
